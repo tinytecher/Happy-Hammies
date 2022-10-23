@@ -1,7 +1,3 @@
-
-// npx create-react-app .
-// npm i react-router-dom
-
 import "./App.css"
 import { useState } from "react"
 import {
