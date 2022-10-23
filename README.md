@@ -1,3 +1,6 @@
+
+![](https://github.com/tinytecher/happy_hamies/blob/main/images/screenshot.JPG)
+
 # Getting Started 
 
  - App Creation -
