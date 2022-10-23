@@ -1,5 +1,5 @@
 
-![](https://github.com/tinytecher/happy_hamies/images/screenshot.JPG)
+![Screenshot](screenshot.png)
 
 # Getting Started 
 
