@@ -1,5 +1,5 @@
 
-![](https://github.com/tinytecher/happy_hamies/blob/main/images/screenshot.JPG)
+![](https://github.com/tinytecher/happy_hamies/images/screenshot.JPG)
 
 # Getting Started 
 
