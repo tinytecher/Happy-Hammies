@@ -1,5 +1,5 @@
 
-![Screenshot](screenshot.png)
+![Screenshot](src/images/screenshot.png)
 
 # Getting Started 
 
