@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todos-container {
+    background-color: aqua;
+    padding: 30px;
+    width: 100vw;
+    height: 460px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.todo-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+li{
+    display: inline-block;
+}
+
+.todo-li{
+    float: left;
+    clear: left;
+}

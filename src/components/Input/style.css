@@ -1,0 +1,17 @@
+.input-container{
+   margin-top: 150px;
+   margin-left: 30px;
+}
+
+.input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.input-button{
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
