@@ -3,11 +3,11 @@
 
 # Getting Started 
 
- - App Creation -
+App Creation:
 npx create-react-app .
 npm i react-router-dom
 
-- App Clone - 
+App Clone:
 npm install
 
 A simple website I'm using to practice using React, React router and CSS animations.
