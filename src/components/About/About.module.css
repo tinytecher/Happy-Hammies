@@ -1,0 +1,16 @@
+
+.aboutSection {
+	padding: 80px;
+	text-align: center;
+}
+.aboutHeading {
+	font-size: 28px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.aboutContent {
+	font-size: 18px;
+	color: #666;
+	line-height: 1.6;
+	padding: 10px;
+}

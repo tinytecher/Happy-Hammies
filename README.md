@@ -54,9 +54,9 @@ To get the Happy Hamies app up and running on your local machine, follow these s
 ### Available Routes
 
 - `/`: Home page.
+- `/about`: Learn more about the project and its purpose.
 - `/hamsters`: View a list of hamsters.
 - `/hamsters/:id`: View details of a specific hamster.
-- `/about`: Learn more about the project and its purpose.
 - `/todo`: Manage your hamster-related to-do list.
 
 ## Setup from Scratch
@@ -78,4 +78,4 @@ If you're interested in setting up a similar project from scratch, here's a step
 
 3. **Create Components:**
 
-    Create the necessary components in the `src/components` directory, such as `Home`, `Hamsters`, `HamsterDetails`, `About`, and `Input`. Populate them with relevant content
+    Create the necessary components in the `src/components` directory, such as `Home`, `About`, `Hamsters`, `HamsterDetails`, and `Input`. Populate them with relevant content

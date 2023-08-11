@@ -1,0 +1,57 @@
+.navbarContainer {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #f7f4f4;
+}
+
+.hamsterLogo {
+    position: relative;
+    height: 80px;
+}
+
+ul li a {
+	color: #4f4d58;
+}
+
+ul li a:hover {
+	color: #00a8ff;
+}
+
+ul li a.active {
+	color: #00a8ff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.leftNav {
+	display: flex;
+	align-items: center;
+	color: #4f4d58;
+	font-size: 24px;
+	margin-top: 6px;
+	font-family: "Mouse Memoirs", sans-serif;
+	gap: 10px;
+}
+
+.navUl {
+	gap: 16px;
+	margin-right: 2rem; 
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	padding: 18px 0 0;
+	height: 50px;
+}
+
+li {
+	font-family: "Mouse Memoirs", sans-serif;
+	font-size: 19px;
+}

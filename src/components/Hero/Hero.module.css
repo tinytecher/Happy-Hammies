@@ -1,67 +1,7 @@
 
-.hamster-logo {
-	position: relative;
-	height: 80px;
-}
-
-.navbar-container {
-	width: 100vw;
-	min-height: 80px;
-	display: flex;
-	/* position: relative; */
-	/* left: 50; */
-	/* margin-top: 10px; */
-	align-items: center;
-    justify-content: space-between;
-	padding: 0 10px;
-	background-color: #f7f4f4;
-}
 
 
-
-.navbar {
-	width: 100%;
-}
-
-.left-nav{
-    display: flex;
-    align-items: center;
-    color: #3e503c;
-	font-size: 24px;
-	margin-top: 6px;
-	font-family: "Mouse Memoirs", sans-serif;
-    gap: 10px;
-}
-
-.nav-ul {
-    display: flex;
-    gap: 16px;
-    margin-right: 40px;
-    margin-top: 3px;
-}
-
-ul {
-	list-style: none;
-	display: flex;
-	padding: 18px 0 0;
-	height: 50px;
-}
-
-li {
-	font-family: "Mouse Memoirs", sans-serif;
-	font-size: 24px;
-}
-
-li a {
-	color: #3e503c;
-}
-
-li a:hover {
-	color: #949c81;
-}
-
-
-.call-to-container {
+.mainContainer {
 	background: url("../../Images/grass.jpg");
     background-position: right 0 bottom -100px ;
 	display: flex;
@@ -75,18 +15,18 @@ li a:hover {
 	text-align: center;
 }
 
-.call-to-title {
+.title {
 	color: white;
 	letter-spacing: 2px;
 	font-size: 37px;
 }
 
-.call-to-info {
+.info {
 	color: white;
 	letter-spacing: 1px;
 }
 
-.button-one {
+.buttonOne {
 	text-decoration: none;
 	color: #949c81;
 	background-color: #f0e6d1;
