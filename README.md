@@ -1,22 +1,6 @@
-<!-- 
-<img width="1183" alt="Screenshot" src="https://user-images.githubusercontent.com/79761202/197367630-8bf22818-178a-4a33-a92f-862dacbf5384.png">
-
-# Getting Started 
-
-App Creation:
-npx create-react-app .
-npm i react-router-dom
-
-App Clone:
-npm install
-
-A simple website I'm using to practice using React, React router and CSS animations.
-
-Goals:
-- Continue working on CSS for each pages and make fully responsive.
-- Add a small database to collect hamster stats -->
-
 # Happy Hamies App
+
+![Screenshot](https://user-images.githubusercontent.com/79761202/197367630-8bf22818-178a-4a33-a92f-862dacbf5384.png)
 
 Welcome to the Happy Hamies app, where hamster lovers can enjoy animations and learn more about their adorable pets. This app is built using React.js and React Router.
 
@@ -55,13 +39,16 @@ To get the Happy Hamies app up and running on your local machine, follow these s
 
 - `/`: Home page.
 - `/about`: Learn more about the project and its purpose.
-- `/hamsters`: View a list of hamsters.
+- `/Adopt`: View a list of hamsters to adopt.
 - `/hamsters/:id`: View details of a specific hamster.
-- `/todo`: Manage your hamster-related to-do list.
+- `/contact`: View contact details.
+
+  
 
 ## Setup from Scratch
 
-If you're interested in setting up a similar project from scratch, here's a step-by-step guide:
+If you're interested in setting up a similar project from scratch, here's a basic guide:
+
 
 1. **Initialize React Project:**
 
@@ -76,6 +63,28 @@ If you're interested in setting up a similar project from scratch, here's a step
     npm install react-router-dom
     ```
 
-3. **Create Components:**
 
-    Create the necessary components in the `src/components` directory, such as `Home`, `About`, `Hamsters`, `HamsterDetails`, and `Input`. Populate them with relevant content
+## Project Structure
+
+The project is organised into the following directories:
+
+- `src/components`: Contains various React components used to build the app's UI.
+    - `About`: Component for the about page.
+    - `AdoptPage`: Component for the hamster adoption page.
+    - `App`: Main app component.
+    - `HamsterDetails`: Component for displaying details of a specific hamster.
+    - `Hero`: Component for the hero section.
+    - `NavBar`: Component for the navigation bar.
+
+
+## Additional Notes
+
+1. **CSS Modules:**
+
+    To improve the styling and organization of my project, I used CSS Modules. 
+
+2. **Converted to REM:**
+   
+    I decided to convert from pixels to rem to improve accessibility.
+
+
