@@ -6,7 +6,7 @@ import {
 import styles from "./App.module.css"
 import NavBar from "../NavBar/NavBar";
 import Hero from "../Hero/Hero.js";
-import Hamsters from "../HamstersPage/HamstersPage.js";
+import Hamsters from "../AdoptPage/AdoptPage.js";
 import HamsterDetails from "../HamsterDetails/HamsterDetails";
 import About from "../About/About.js";
 
