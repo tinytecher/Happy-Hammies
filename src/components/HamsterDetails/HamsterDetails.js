@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { HamstersData } from "../../data/HamstersData";
+import { HamstersData } from "../../data/HamstersData.js";
 
 export default function HamsterDetails() {
 	const { id } = useParams();
