@@ -6,10 +6,10 @@ export default function About() {
 	return (
 		<>
 			<section className={styles.aboutSection}>
-				<h2 class={styles.aboutHeading}>
+				<h2 className={styles.aboutHeading}>
 					Making Hamsters Happy!
 				</h2>
-                <img src={hamster} className={styles.aboutImage} alt="image of hamster"></img>
+                <img src={hamster} className={styles.aboutImage} alt="hamster"></img>
 				<p className={styles.aboutContent}>
 					The Happy Hammies Charity was founded with a
 					simple yet powerful mission – to provide a second
