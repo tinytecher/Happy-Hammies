@@ -1,5 +1,5 @@
 import React from "react";
-import HamCarImage from "../../images/hamCar.png";
+import car from "../../images/car.png";
 import styles from "./Hero.module.css"
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
 					<button className={styles.buttonOne}>Donate</button>
 				</div>
 				<img
-					src={HamCarImage}
+					src={car}
 					className={styles.hamcar}
 					alt='hamsters driving'
 				></img>
