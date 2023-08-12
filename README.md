@@ -1,7 +1,6 @@
 # Happy Hamies App
 
-![Screenshot](https://imgur.com/a/XhKEdwd.png)
-
+![Screenshot](https://i.imgur.com/mT21ZFH.png)
 
 Welcome to the Happy Hamies app, where hamster lovers can enjoy animations and learn more about their adorable pets. This app is built using React.js and React Router.
 
