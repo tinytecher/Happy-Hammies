@@ -1,5 +1,5 @@
 import React from "react";
-import car from "../../images/car.png";
+import car from "./../../images/car.png";
 import styles from "./Hero.module.css"
 
 export default function Hero() {
