@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Donate.module.css";
-import hamster from "../../images/lewis.jpg";
+import hamster from "./../../images/lewis.jpg";
 
 export default function Donate() {
 	return (

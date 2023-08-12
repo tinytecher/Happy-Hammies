@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import pickle from "../../images/pickle.jpg";
+import pickle from "./../../images/pickle.jpg";
 
 export default function About() {
 	return (
