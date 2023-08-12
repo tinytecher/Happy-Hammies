@@ -13,7 +13,7 @@ export default function HamstersPage() {
 							<li key={id} className={styles.hamsterItem}>
 								<Link to={`/hamsters/${id}`}>
 									<h3>{name}</h3>
-									<img className={styles.hamsterImage} src={image} />
+									<img className={styles.hamsterImage} src={image} alt="hamster" />
 									<p>{description}</p>
 								</Link>
 							</li>

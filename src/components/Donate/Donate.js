@@ -12,7 +12,7 @@ export default function Donate() {
 				<img
 					src={hamster}
 					className={styles.donateImage}
-					alt='image of hamster'
+					alt='hamster'
 				></img>
 				<p className={styles.paragraph}>
 					Join us in making a difference for our adorable
