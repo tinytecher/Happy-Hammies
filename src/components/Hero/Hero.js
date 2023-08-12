@@ -1,5 +1,5 @@
 import React from "react";
-import HamCarImage from "../../Images/hamcar.png";
+import HamCarImage from "../../images/hamcar.png";
 import styles from "./Hero.module.css"
 
 export default function Hero() {

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./NavBar.module.css";
-import logoImage from "../../Images/logoham.jpeg";
+import logoImage from "../../images/logoham.jpeg";
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
@@ -26,7 +26,7 @@ export default function NavBar() {
 							<NavLink to='/hamsters'>Hamsters</NavLink>
 						</li>
 						<li>
-							<NavLink to='/contact'>Donate</NavLink>
+							<NavLink to='/donate'>Donate</NavLink>
 						</li>
 					</ul>
 				</nav>

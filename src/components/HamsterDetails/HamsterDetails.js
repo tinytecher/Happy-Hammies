@@ -6,11 +6,11 @@ export default function HamsterDetails() {
     const { id } = useParams();
     console.log(id)
     const hamster = HamstersData[id]
-    const { breed, description} = hamster
+    const { name, description} = hamster
 
   return (
     <div>
-        <h1>{breed}</h1>
+        <h1>{name}</h1>
         <p>{description}</p>
     </div>
   )

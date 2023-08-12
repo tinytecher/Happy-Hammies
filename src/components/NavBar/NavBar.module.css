@@ -1,16 +1,16 @@
 .navbarContainer {
-    width: 100%;
-    min-height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    background-color: #f7f4f4;
+	width: 100%;
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	background-color: #f7f4f4;
 }
 
 .hamsterLogo {
-    position: relative;
-    height: 80px;
+	position: relative;
+	height: 80px;
 }
 
 ul li a {
@@ -18,7 +18,7 @@ ul li a {
 }
 
 ul li a:hover {
-	color: #00a8ff;
+	color: #eeaa4a;
 }
 
 ul li a.active {
@@ -41,7 +41,7 @@ a {
 
 .navUl {
 	gap: 16px;
-	margin-right: 2rem; 
+	margin-right: 2rem;
 }
 
 ul {
