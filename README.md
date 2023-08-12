@@ -81,14 +81,28 @@ The project is organised into the following directories:
     - `NavBar`: Component for the navigation bar..
 
 
-## Additional Notes
+## Final Notes
 
 1. **CSS Modules:**
 
-    To improve the styling and organization of my project, I used CSS Modules. 
+    I have utilized CSS Modules to enhance the styling and organization of my project, resulting in a more structured and manageable styling approach.
 
-2. **Converted to REM:**
-   
-    I decided to convert from pixels to rem to improve accessibility.
+2. **Deployment Troubleshooting:**
+
+    During the deployment process to Netlify, I encountered some errors. After several attempts using various methods to import images into React.js, including experimenting with `require()`, I discovered a solution by relocating the required images directly into the `components` folder. This approach, as opposed to keeping the images in a separate folder, resolved the issue I was facing.
+
+    Additionally, I addressed a warning about the outdated CanIUse database by updating it using the following command:
+
+    ```bash
+    npx update-browserslist-db@latest
+    ```
+
+4. **Stretch Goals:**
+
+    - Investigate the root cause of the image path issue and explore alternative approaches to importing and rendering multiple images in React from a .js file.
+    - Enhance CSS styles and ensure responsiveness across all pages.
+    - Continue the conversion of pixel values to rems / ems for improved scalability.
+    - Further refine the content of the contact page to provide comprehensive details.
+    - Implement a form on the donate page for a more interactive user experience.
 
 
