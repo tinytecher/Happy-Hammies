@@ -74,7 +74,7 @@ The project is organised into the following directories:
     - `App`: Main app component.
     - `HamsterDetails`: Component for displaying details of a specific hamster.
     - `Hero`: Component for the hero section.
-    - `NavBar`: Component for the navigation bar.
+    - `NavBar`: Component for the navigation bar..
 
 
 ## Additional Notes
