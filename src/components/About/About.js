@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import hamster from "../../images/pickle.jpg";
+import pickle from "../../images/pickle.jpg";
 
 export default function About() {
 	return (
@@ -9,7 +9,7 @@ export default function About() {
 				<h2 className={styles.aboutHeading}>
 					Making Hamsters Happy!
 				</h2>
-                <img src={hamster} className={styles.aboutImage} alt="hamster"></img>
+                <img src={pickle} className={styles.aboutImage} alt="hamster"></img>
 				<p className={styles.aboutContent}>
 					The Happy Hammies Charity was founded with a
 					simple yet powerful mission – to provide a second
