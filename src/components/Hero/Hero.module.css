@@ -49,11 +49,10 @@
 	height: 180px;
 	z-index: 100;
 	position: fixed;
-	top: 80%;
+	top: 75%;
 	transition: all 1s linear;
 	/* animate on load */
-	animation: 9s linear 0s 1 slideInLeft;
-	/* repeat animation 3 times */
+	animation: 10s linear 0s 1 slideInLeft;
 	animation-iteration-count: infinite;
 }
 
