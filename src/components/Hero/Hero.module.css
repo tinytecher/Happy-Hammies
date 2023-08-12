@@ -2,7 +2,7 @@
 
 
 .mainContainer {
-	background: url("../../images/grass.jpg");
+	background: url("./grass.jpg");
     background-position: right 0 bottom -100px ;
 	display: flex;
 	flex-direction: column;
