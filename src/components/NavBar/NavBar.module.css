@@ -1,11 +1,11 @@
 .navbarContainer {
-	width: 100%;
-	min-height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 10px;
-	background-color: #f7f4f4;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f4f4;
+    padding: 0 10px; /* Adjust padding as needed */
+    overflow: hidden; /* Hide any overflowing content */
 }
 
 .hamsterLogo {
@@ -36,7 +36,7 @@ a {
 	font-size: 24px;
 	margin-top: 6px;
 	font-family: "Mouse Memoirs", sans-serif;
-	gap: 10px;
+	/* gap: 10px; */
 }
 
 .navUl {
@@ -54,4 +54,31 @@ ul {
 li {
 	font-family: "Mouse Memoirs", sans-serif;
 	font-size: 19px;
+}
+
+
+@media (max-width: 767px) {
+    .navbarContainer {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px; /* Add more padding for better spacing */
+    }
+    
+    .leftNav {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-top: 10px; /* Increase top margin */
+    }
+    
+    .navUl {
+        margin-top: 10px; /* Add spacing between logo and navigation links */
+    }
+    
+    ul {
+        padding: 10px 0 0; /* Adjust padding for smaller screens */
+        height: auto; /* Allow list to grow based on content */
+    }
+    
+    li {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
 }

@@ -1,19 +1,20 @@
 
-
-
 .mainContainer {
-	background: url("./grass.jpg");
-    background-position: right 0 bottom -100px ;
-	display: flex;
-	flex-direction: column;
-	z-index: 2000;
-	margin: auto;
-	width: 100%;
-	height: calc(100vh - 80px);
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+    background: url("../../images/grass.jpg");
+    background-position: right bottom;
+    background-size: cover; /* Cover the entire container */
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+    margin: 0;
+    width: 100vw;
+    height: 100vh; /* Cover the entire viewport height */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* Prevent scrolling */
 }
+
 
 .title {
 	color: white;
@@ -45,11 +46,11 @@
 }
 
 .hamcar {
-	width: 180px;
-	height: 180px;
+	width: 140px;
+	height: 140px;
 	z-index: 100;
 	position: fixed;
-	top: 75%;
+	top: 85%;
 	transition: all 1s linear;
 	/* animate on load */
 	animation: 10s linear 0s 1 slideInLeft;
@@ -65,3 +66,30 @@
 		transform: translateX(100vw);
 	}
 }
+
+
+/* Media Query for screens up to 767px */
+@media (max-width: 767px) {
+    .title {
+        font-size: 24px;
+    }
+    .info {
+        font-size: 14px;
+        margin-bottom: 10px; /* Reduce margin for smaller screens */
+    }
+    .buttonOne {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .hamcar {
+        width: 100px;
+        height: 100px;
+        top: 85%; 
+    }
+    .mainContainer {
+        height: 83vh; 
+        background-size: cover;
+
+    }
+}
+
