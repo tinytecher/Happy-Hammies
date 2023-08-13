@@ -1,95 +1,120 @@
 /* Main styles for larger screens */
 .mainContainer {
-    background: url("./grass.jpg");
-    background-position: right bottom;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    z-index: 2000;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    position: relative; /* Add relative positioning for proper stacking */
+	background: url("./grass.jpg");
+	background-position: right bottom;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	z-index: 2000;
+	margin: 0;
+	width: 100vw;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+	position: relative; /* Add relative positioning for proper stacking */
 }
 
 .title {
-    color: white;
-    letter-spacing: 2px;
-    font-size: 37px;
-    margin-bottom: 10px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 37px;
+	margin-bottom: 10px;
 }
 
 .info {
-    color: white;
-    letter-spacing: 1px;
-    margin-bottom: 17px;
+	color: white;
+	letter-spacing: 1px;
+	margin-bottom: 17px;
 }
 
 .buttonOne {
-    text-decoration: none;
-    color: #949c81;
-    background-color: #f0e6d1;
-    font-family: sans-serif;
-    font-size: 16px;
-    padding: 10px 28px;
-    transition: all 1s;
-    z-index: 50;
-    overflow: hidden;
-    border-radius: 3%;
-    border: none;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+	margin: 1rem;
+	background-color: #009578;
+	color: #fff;
+}
+
+.buttonOne:hover {
+	background-color: #006d55;
+}
+
+/* Active state */
+.buttonOne:active {
+	background-color: #00423b;
 }
 
 .hamcar {
-    width: 140px;
-    height: 140px;
-    z-index: 100;
-    position: absolute;
-    bottom: 0; /* Fixed position at the bottom */
-    left: 50%; /* Center the car horizontally */
-    transform: translateX(-50%); /* Adjust horizontal centering */
-    transition: all 1s linear;
-    animation: 10s linear 0s 1 slideInLeft;
-    animation-iteration-count: infinite;
+	width: 140px;
+	height: 140px;
+	z-index: 100;
+	position: absolute;
+	bottom: 3%;
+	left: 50%; /* Center the car horizontally */
+	transform: translateX(
+		-50%
+	); /* Adjust horizontal centering */
+	transition: all 1s linear;
+	animation: 10s linear 0s 1 slideInLeft;
+	animation-iteration-count: infinite;
 }
 
 /* Animate on load */
 @keyframes slideInLeft {
-    0% {
-        transform: translateX(-60vw);
-    }
-    100% {
-        transform: translateX(100vw);
-    }
+	0% {
+		transform: translateX(-60vw);
+	}
+	100% {
+		transform: translateX(100vw);
+	}
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+.footer {
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
 }
 
 /* Media Query for screens up to 767px */
 @media (max-width: 767px) {
-    .title {
-        font-size: 24px;
-    }
-    .info {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .buttonOne {
-        font-size: 14px;
-        padding: 8px 20px;
-    }
-    .hamcar {
-        width: 100px;
-        height: 100px;
-        bottom: 0; /* Fixed position at the bottom */
-    }
-    .mainContainer {
-        height: 83vh;
-        background-size: cover;
-    }
-}
+	.mainContainer {
+		height: 76vh;
+		background-size: cover;
+		padding: 20px;
+	}
 
+	.title {
+		font-size: 24px;
+	}
+	.info {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.buttonOne {
+		font-size: 14px;
+		padding: 8px 20px;
+	}
+	.hamcar {
+		width: 100px;
+		height: 100px;
+		bottom: 0; /* Fixed position at the bottom */
+	}
+
+}
 
 /*
 ISSUE:

@@ -22,10 +22,10 @@ function App() {
 					path='/hamsters'
 					element={<Hamsters />}
 				></Route>
-				<Route
+				{/* <Route
 					path='/hamsters/:id'
 					element={<HamsterDetails />}
-				></Route>
+				></Route> */}
 				<Route path='/donate' element={<Donate />}></Route>
 			</Routes>
 		</Router>

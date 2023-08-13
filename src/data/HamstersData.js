@@ -10,16 +10,16 @@ export const HamstersData =
   {
     "hamsterId": 1,
     "id": 2,
-    "name": "Zip",
-    "description": "Introducing Rubarb, a hamster with an adventurous spirit and a heart full of curiosity. Don't be fooled by their petite size; Rubarb dreams of exploring vast cardboard kingdoms and embarking on exciting tube-tunnel expeditions. When not on an epic quest, they're known for their cuddly nature and gentle whisker tickles. Ready to join Rubarb on their next escapade?",
-    "image": "https://i.imgur.com/A7hzTi8.jpg"
+    "name": "Suga",
+    "description": "Suga is more than just a hamster – they're a pocket-sized bundle of sweetness! With a penchant for spreading joy through their delightful antics, Suga's presence is like a ray of sunshine in your home. Their favorite hobbies include building intricate bedding forts and rolling playfully in fluffy bedding. If you're craving a daily dose of happiness, Suga is the hamster for you.",
+    "image": "https://i.imgur.com/sooM1UW.jpg"
   },
   {
     "hamsterId": 1,
     "id": 3,
-    "name": "Suga",
-    "description": "Suga is more than just a hamster – they're a pocket-sized bundle of sweetness! With a penchant for spreading joy through their delightful antics, Suga's presence is like a ray of sunshine in your home. Their favorite hobbies include building intricate bedding forts and rolling playfully in fluffy bedding. If you're craving a daily dose of happiness, Suga is the hamster for you.",
-    "image": "https://i.imgur.com/VeGtxot.jpg"
+    "name": "Zip",
+    "description": "Introducing Rubarb, a hamster with an adventurous spirit and a heart full of curiosity. Don't be fooled by their petite size; Rubarb dreams of exploring vast cardboard kingdoms and embarking on exciting tube-tunnel expeditions. When not on an epic quest, they're known for their cuddly nature and gentle whisker tickles. Ready to join Rubarb on their next escapade?",
+    "image": "https://i.imgur.com/A7hzTi8.jpg"
   },
   {
     "hamsterId": 1,

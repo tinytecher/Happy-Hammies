@@ -1,0 +1,51 @@
+.adopt-page {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hamster-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamster-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .adoption-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;  
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button { 
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0062cc;
+  }
+
+  .hamster-details img {
+    width: 200px;
+    height: 200px;
+  }

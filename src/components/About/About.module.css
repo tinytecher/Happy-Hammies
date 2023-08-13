@@ -1,36 +1,40 @@
-
 .aboutSection {
 	/* padding: 80px; */
 	text-align: center;
-    padding: 0 10px 80px 10px;
+	padding: 0 10px 80px 10px;
 }
 .aboutHeading {
-	font-size: 28px;
+	font-size: 2rem;
 	color: #333;
-	margin-bottom: 20px;
+	margin: 40px 0;
 }
 .aboutContent {
-	font-size: 18px;
+	font-size: 1.2rem;
 	color: #666;
 	line-height: 1.6;
-	padding: 10px;
+	padding: 0 100px 0 100px;
 }
 
-.aboutImage  {
-    width: 20rem;
-    height: 20rem;
-    margin-bottom: 20px;
-    border-radius: 3%;
+.aboutImage {
+	width: 20rem;
+	height: 20rem;
+	margin-bottom: 20px;
+	border-radius: 50%;
 }
 
 @media (max-width: 767px) {
-    .aboutSection {
-        overflow: hidden;
+	.aboutSection {
+		overflow: hidden;
+		min-width: 20rem;
+	}
+
+    .aboutHeading {
+        font-size: 2rem;
     }
 
-    .aboutHeading, .aboutContent {
-        min-width: 20rem;
-    }
 
+	.aboutContent {
+        padding: 0 30px;
 
+	} 
 }

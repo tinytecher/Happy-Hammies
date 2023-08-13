@@ -1,6 +1,6 @@
 import React from "react";
 import car from "./car.png";
-import styles from "./Hero.module.css"
+import styles from "./Hero.module.css";
 
 export default function Hero() {
 	return (
@@ -13,7 +13,9 @@ export default function Hero() {
 					everyday! Nom Nom!
 				</p>
 				<div className={styles.buttonContainer}>
-					<button className={styles.buttonOne}>Donate</button>
+					<button className={styles.buttonOne}>
+						Donate
+					</button>
 				</div>
 				<img
 					src={car}
@@ -21,6 +23,10 @@ export default function Hero() {
 					alt='hamsters driving'
 				></img>
 			</div>
+			<section className={styles.footer}>
+				<h2>Contact Us</h2>
+				<p>Email: happyhammies@example.com</p>
+			</section>
 		</>
 	);
 }

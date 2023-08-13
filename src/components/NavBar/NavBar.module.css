@@ -1,17 +1,19 @@
 .navbarContainer {
-    min-height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f7f4f4;
-    padding: 0 10px; /* Adjust padding as needed */
-    overflow: hidden; /* Hide any overflowing content */
-    margin-bottom: 7%;
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f7f4f4;
+	padding: 0 10px;
+	overflow: hidden;
 }
 
 .hamsterLogo {
 	position: relative;
 	height: 80px;
+}
+.heading {
+	margin-left: 20px;
 }
 
 ul li a {
@@ -41,45 +43,69 @@ a {
 }
 
 .navUl {
-	gap: 16px;
-	margin-right: 2rem;
+	gap: 6px;
+	margin-right: 1rem;
 }
 
 ul {
 	list-style: none;
 	display: flex;
-	padding: 18px 0 0;
-	height: 50px;
+	/* padding: 18px 0 0; */
+	height: 60px;
 }
 
 li {
-	font-family: "Mouse Memoirs", sans-serif;
 	font-size: 19px;
 }
 
+button {
+	width: 100px;
+	border: none;
+	padding: 8px 0;
+	font-size: 1rem;
+	margin-top: 1rem;
+	background-color: transparent;
+}
+
+.donateButton {
+	padding: 8px 6px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+	margin: 1rem;
+	background-color: #009578;
+	color: #fff;
+}
+
+.donateButton:hover {
+	background-color: #006d55;
+}
+
+/* Active state */
+.donateButton:active {
+	background-color: #00423b;
+}
 
 @media (max-width: 767px) {
-    .navbarContainer {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align items to the left */
-        padding: 10px; /* Add more padding for better spacing */
-    }
-    
+	.navbarContainer {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.hamsterLogo {
+		height: 60px;
+	}
+
+	.heading {
+		font-size: 23px;
+	}
+
+	.navUl {
+		gap: 0;
+	}
+
     .leftNav {
-        font-size: 18px; /* Adjust font size for smaller screens */
-        margin-top: 10px; /* Increase top margin */
-    }
-    
-    .navUl {
-        margin-top: 10px; /* Add spacing between logo and navigation links */
-    }
-    
-    ul {
-        padding: 10px 0 0; /* Adjust padding for smaller screens */
-        height: auto; /* Allow list to grow based on content */
-    }
-    
-    li {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-top: 5%;
     }
 }

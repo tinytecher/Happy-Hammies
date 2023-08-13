@@ -16,17 +16,23 @@ export default function NavBar() {
 								alt='hamster'
 							></img>
 						</NavLink>
-						<h1>Happy Hammies</h1>
+						<h1 className={styles.heading}>Happy Hammies</h1>
 					</div>
 					<ul className={styles.navUl}>
 						<li>
+						<button className={styles.buttonGeneral}>
 							<NavLink to='/about'>About</NavLink>
+						</button>
 						</li>
 						<li>
-							<NavLink to='/hamsters'>Hamsters</NavLink>
+						<button className={styles.buttonGeneral}>
+							<NavLink to='/hamsters'>Adopt</NavLink>
+						</button>
 						</li>
 						<li>
+						<button className={styles.donateButton} type="submit">
 							<NavLink to='/donate'>Donate</NavLink>
+						</button>
 						</li>
 					</ul>
 				</nav>
