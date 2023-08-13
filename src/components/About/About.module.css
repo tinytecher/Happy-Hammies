@@ -1,7 +1,8 @@
 
 .aboutSection {
-	padding: 80px;
+	/* padding: 80px; */
 	text-align: center;
+    padding: 0 10px 80px 10px;
 }
 .aboutHeading {
 	font-size: 28px;
@@ -16,8 +17,20 @@
 }
 
 .aboutImage  {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     margin-bottom: 20px;
     border-radius: 3%;
+}
+
+@media (max-width: 767px) {
+    .aboutSection {
+        overflow: hidden;
+    }
+
+    .aboutHeading, .aboutContent {
+        min-width: 20rem;
+    }
+
+
 }
