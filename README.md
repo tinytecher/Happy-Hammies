@@ -101,6 +101,7 @@ The project is organised into the following directories:
 
     - Investigate the root cause of the image path issue and explore alternative approaches to importing and rendering multiple images in React from a .js file.
     - Enhance CSS styles and ensure responsiveness across all pages.
+      - inc Add burger menu for nav
     - Continue the conversion of pixel values to rems / ems for improved scalability.
     - Further refine the content of the contact page to provide comprehensive details.
     - Implement a form on the donate page for a more interactive user experience.
