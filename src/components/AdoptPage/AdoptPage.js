@@ -15,6 +15,7 @@ export default function HamstersPage() {
 									<h3>{name}</h3>
 									<img className={styles.hamsterImage} src={image} alt="hamster" />
 									<p>{description}</p>
+									<button>More about {name}</button>
 								</Link>
 							</li>
 						)
