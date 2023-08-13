@@ -1,6 +1,6 @@
 
 .mainContainer {
-    background: url("../../images/grass.jpg");
+    background: url("./grass.jpg");
     background-position: right bottom;
     background-size: cover; /* Cover the entire container */
     display: flex;
