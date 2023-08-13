@@ -11,18 +11,21 @@ export default function HamstersPage() {
 					{Object.entries(HamstersData).map(
 						([id, { name, description, image }]) => (
 							<li key={id} className={styles.hamsterItem}>
-								{/* <Link to={`/hamsters/${id}`}> */}
-									<h3>{name}</h3>
-									<img className={styles.hamsterImage} src={image} alt="hamster" />
-									<p>{description}</p>
-									<button className={styles.buttonOne}>Adopt {name}</button>
-								{/* </Link> */}
+								<h3>{name}</h3>
+								<img
+									className={styles.hamsterImage}
+									src={image}
+									alt='hamster'
+								/>
+								<p>{description}</p>
+								<button className={styles.buttonOne}>
+									Adopt {name}
+								</button>
 							</li>
 						)
 					)}
 				</ul>
 			</div>
-
 		</>
 	);
 }
