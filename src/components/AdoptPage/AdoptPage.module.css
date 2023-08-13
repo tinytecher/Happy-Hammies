@@ -44,3 +44,12 @@ p {
 	width: 25rem;
 	border-radius: 3%;
 }
+
+
+/* Media Query for screens up to 767px (mobile) */
+@media (max-width: 767px) {
+    .hamsterItem {
+        overflow: hidden;
+    }
+}
+
