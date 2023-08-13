@@ -1,6 +1,5 @@
 import React from "react";
 import { HamstersData } from "../../data/HamstersData.js";
-import { Link } from "react-router-dom";
 import styles from "./AdoptPage.module.css";
 
 export default function HamstersPage() {

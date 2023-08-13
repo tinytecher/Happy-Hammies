@@ -7,7 +7,6 @@ import styles from "./App.module.css";
 import NavBar from "../NavBar/NavBar.js";
 import Hero from "../Hero/Hero.js";
 import Hamsters from "../AdoptPage/AdoptPage.js";
-import HamsterDetails from "../HamsterDetails/HamsterDetails.js";
 import About from "../About/About.js";
 import Donate from "../Donate/Donate.js";
 
