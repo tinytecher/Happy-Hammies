@@ -8,9 +8,8 @@ export default function Hero() {
 			<div className={styles.mainContainer}>
 				<h3 className={styles.title}>Donate Now</h3>
 				<p className={styles.info}>
-					Did you know that for only £1.50 a month you could
-					feed 5 hamsters,<br></br> 3 sunflower seeds
-					everyday! Nom Nom!
+					For only £2.50 a month you<br></br> could feed 5
+					hungry hamsters!<br></br>Nom Nom!
 				</p>
 				<div className={styles.buttonContainer}>
 					<button className={styles.buttonOne}>
