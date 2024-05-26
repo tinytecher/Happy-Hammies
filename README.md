@@ -6,7 +6,7 @@ Welcome to the Happy Hamies app, where hamster lovers can enjoy animations and l
 
 ## Deployed on Netlify
 
-[Visit Happy Hammies]([https://happy-hammies.netlify.app](https://react-happy-hammies.netlify.app/))
+[Visit Happy [Hammies]([(https://react-happy-hammies.netlify.app/)])
 
 ## Getting Started
 
