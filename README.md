@@ -4,7 +4,7 @@
 
 Welcome to the Happy Hamies app, where hamster lovers can enjoy animations and learn more about their adorable pets. This app is built using React.js and React Router.
 
-## Deployed on Netlify
+## Netlify
 https://react-happy-hammies.netlify.app/
 
 ## Getting Started
